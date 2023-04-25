@@ -9,4 +9,4 @@ print(taro)
 
 for k in range(5):
     m = r.randrange(0, 22)
-    print('%d번째 타로 : ' %(k+1) ,taro[m])
+    print('%d번째 타로 : %s' % (k+1, taro[m]))
