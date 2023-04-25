@@ -4,7 +4,7 @@ from random import sample
 #randrange() 함수와 집합을 이용, 중복을 제거
 mylotto = set()
 while True:
-    num = randrange(1, 10)
+    num = randrange(1, 46)
     print(num, end=' ')
     mylotto.add(num)
     if len(mylotto) == 6:
